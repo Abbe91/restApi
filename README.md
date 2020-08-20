@@ -1,3 +1,13 @@
+
+Github link : https://github.com/Abbe91/restApi
+Mitt cv : https://abbewebsite.com/cv.abbewebsite.com/
+
+
+
+NOTE:
+
+ibland appen fungerar inte efter vi installera express så går bra om du starta om din dator.
+
 # restApi
 
 I den här inlämningen skall du skapa en hemsida som visar information hämtat ifrån ert egenbyggda API samt ifrån ett valfritt externt API.
@@ -30,3 +40,6 @@ I slutet du ska starta din server
 Om du vill att din server ska köra efter du har ändrat något så du kan skriva det i terminalen och server ska köra själv 
 
 5) nodemon server.js 
+NOTE:
+
+ibland appen fungerar inte efter vi installera express så går bra om du starta om din dator
