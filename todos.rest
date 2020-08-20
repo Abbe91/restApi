@@ -8,21 +8,21 @@ POST http://localhost:3000/users/
 Content-Type: application/json
 
 {
-   "id":"",
+   "id":"1",
     "name": "Davied",
     "isStudent": false
 }
 ###
-PUT http://localhost:3000/users/_rzkmchg43
+PUT http://localhost:3000/users/_l7otr0fg5
 Content-Type: application/json
 
 {
-    "id":"_l7otr0fg5",
+    "id":"_ewspg0bjs",
     "name": "Yassen",
     "isStudent": true   
 }
 
 
 ###
-DELETE http://localhost:3000/users/_l7otr0fg5
+DELETE http://localhost:3000/users/_ewspg0bjs
 
