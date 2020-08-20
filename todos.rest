@@ -1,0 +1,28 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/_rzkmchg43
+
+###
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+   "id":"",
+    "name": "Davied",
+    "isStudent": false
+}
+###
+PUT http://localhost:3000/users/_rzkmchg43
+Content-Type: application/json
+
+{
+    "id":"_l7otr0fg5",
+    "name": "Yassen",
+    "isStudent": true   
+}
+
+
+###
+DELETE http://localhost:3000/users/_l7otr0fg5
+
