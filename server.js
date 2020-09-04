@@ -29,7 +29,7 @@ app.get('/users', (req, res)=> res.json(users))
 app.get('/users/:id', (req, res)=> res.json('One user, id: '+ req.params.id))
 
 app.post('/users', (req, res)=> {
-    if(!req.body.id || !req.body.name){
+    if(!req.body.name ) {
         res.status(400).json({message: 'Data sent as body is not correct'})
     }else{
 
@@ -54,10 +54,10 @@ app.put("/users/:id" , (req , res) => {
    })
 
 
-app.delete("/users/:id", [checkIfUserExists], (req,res) => {
-    users.splice(req.foundUserIndex, 1)
-    res.json({status: "User deleted"})
-})
+// app.delete("/users/:id", [checkIfUserExists], (req,res) => {
+//     users.splice(req.foundUserIndex, 1)
+//     res.json({status: "User deleted"})
+// })
 
 function checkIfUserExists (req, res, next){
     const paramId = req.params.id

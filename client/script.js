@@ -1,10 +1,10 @@
 
 window.addEventListener('load', start)
 
-function othername() {
-    var input = document.getElementById("userInput").value;
-    alert(input);
-}
+// function othername() {
+//     var input = document.getElementById("userInput").value;
+//     alert(input);
+// }
 async function start(){
     //try catch testa
     const result = await fetch('/users')
@@ -29,7 +29,7 @@ async function createTodo(event){
 
 function getAll(){
     console.log("getAll")
-    makeRequest("/users", "get")
+    makeRequest("/users/" + 0, "get")
     location.reload()
 //  let coloectUsers = makeRequest("/users", "get") 
     
@@ -46,7 +46,7 @@ function addNew(){
         name: inputName,
         isStudent: false
     }
-    makeRequest("/users", "post", JSON.stringify(body))
+    makeRequest("/users/", "post", JSON.stringify(body))
 }
 function update(id){
     let body = {
@@ -57,10 +57,10 @@ function update(id){
     makeRequest("/users/_l7otr0fg5", "put", JSON.stringify(body))
 }
 
-function remove(id){
-    console.log("remove", id)
-    makeRequest("/users/1" , "delete")
-}
+// function remove(id){
+//     console.log("remove", id)
+//     makeRequest("/users/1" , "delete")
+// }
 
 async function makeRequest(url, reqMethod, body ){
     const response = await fetch(url, {
