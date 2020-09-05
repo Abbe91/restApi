@@ -18,8 +18,8 @@ framgå att ni hämtar data ifrån ett externt valfritt API. Data som hämtas sk
 
 
 
-I den här projektet ska jag ska en rest Api (GET, POST, PUT, DELETE)
-Du som vill köra mitt projekt måste du installera Nodjs i den dator, man kan göra det genom att du skriva på din terminal 
+I den här projektet ska jag ha en rest Api (GET, POST, PUT, DELETE)
+Du som vill köra mitt projekt måste du installera Nodjs i din dator, man kan göra det genom att skriva på din terminal 
 
 1)Sudo i node
 
