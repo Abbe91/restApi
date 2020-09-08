@@ -57,10 +57,10 @@ function update(id){
     makeRequest("/users/_l7otr0fg5", "put", JSON.stringify(body))
 }
 
-// function remove(id){
-//     console.log("remove", id)
-//     makeRequest("/users/1" , "delete")
-// }
+function remove(id){
+    console.log("remove", id)
+    makeRequest("/users/_l7otr0fg5" , "delete")
+}
 
 async function makeRequest(url, reqMethod, body ){
     const response = await fetch(url, {

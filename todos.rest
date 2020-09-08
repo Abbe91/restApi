@@ -1,7 +1,7 @@
 GET http://localhost:3000/users
 
 ###
-GET http://localhost:3000/users/_rzkmchg43
+GET http://localhost:3000/users/1
 
 ###
 POST http://localhost:3000/users/
@@ -24,5 +24,5 @@ Content-Type: application/json
 
 
 ###
-DELETE http://localhost:3000/users/1
+DELETE http://localhost:3000/users/_l7otr0fg5
 
