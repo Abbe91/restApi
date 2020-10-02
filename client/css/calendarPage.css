@@ -1,0 +1,25 @@
+body{
+    background: black;
+}
+#days{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: black;
+    border: none;
+    width: auto;
+    height: auto;
+}
+div{
+    text-align: center;
+    width: 10em;
+    height: auto;
+    margin: 1em;
+    color: greenyellow;
+    border: 2px solid red;
+}
+div:hover{
+    color: black;
+    border: 2px solid blue;
+    background: yellow;
+}

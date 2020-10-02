@@ -17,7 +17,7 @@ const app = express()
 // make sure body is parsed as Json
 app.use(express.json())
 
-
+app.use(express.static('./client'))
 
 //make sure client folder is accessable 
 app.use(express.static('./client'))

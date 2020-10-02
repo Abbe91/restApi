@@ -74,3 +74,6 @@ async function makeRequest(url, reqMethod, body ){
     console.log(data)
     return data
 }
+oppenCalenderPage = () =>{
+    location.href = "../calendar.html"
+}
